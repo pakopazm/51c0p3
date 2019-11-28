@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns:cdv="http://cordova.apache.org/ns/1.0" id="com.SHC.SICOPEMovil" version="1.2.30" xmlns="http://www.w3.org/ns/widgets" defaultlocale="es-MX">
+  <access origin="*" />
+  <plugin name="cordova-plugin-whitelist" version="1" />
+  <allow-intent href="http://*/*" />
+  <allow-intent href="https://*/*" />
   <icon src="images/escudo.png" />
   <description>SICOPE</description>
   <name>SICOPE</name>
