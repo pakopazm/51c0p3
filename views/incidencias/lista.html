@@ -1,0 +1,46 @@
+<div class="card card-block sameheight-item">
+    <div class="title-block">
+        <h2 class="title"> Incidencias</h3>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <div class="form-group">
+                <input type="text" id="nip" type="number" float value="" class="form-control boxed" placeholder="NIP">
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="form-group">
+                <select class="form-control" id="sel-mes"></select>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="form-group">
+                <select class="form-control" id="sel-anio"></select>
+            </div>
+        </div>
+    </div>
+    <div class="col-12">
+        <div class="form-group"><button type="button" onclick="getData()"
+                class="btn btn-primary btn-block">Buscar</button>
+        </div>
+    </div>
+    <div align="center" class="h5" id="xnombre" />
+    <div class="table-responsive">
+            <table class="table table-hover table-bordered">
+                <thead>
+                    <tr>
+                        <th>Fecha</th>
+                        <th>Incidencia</th>
+                        <th>Horario</th>
+                    </tr>
+                </thead>
+                <tbody id="lista">
+                </tbody>
+            </table>
+        </div>
+</div>
+
+
+
+
+<script src="controllers/incidenciasController.js"></script>
